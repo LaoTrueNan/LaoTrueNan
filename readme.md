@@ -4,7 +4,7 @@
 测试文件 **Test.cpp**
 
 #### 第二次commit（多项式的加法）
-*未通过windows测试*
+*未通过windows测试*(已解决)
 
 ```c++
 Polynomal operator + (Polynomal& op1,Polynomal& op2){
@@ -38,3 +38,6 @@ Polynomal operator + (Polynomal& op1,Polynomal& op2){
     }
     return res;
 };
+
+#### 所有的插入操作必须加上link=NULL
+最终完成了多项式的加法和乘法
