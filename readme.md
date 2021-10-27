@@ -1,6 +1,6 @@
 ### 多项式的加法和乘法
 
-头文件 **Polynomal.h**
+头文件 **Polynomal.h**\\
 测试文件 **Test.cpp**
 
 #### 第二次commit（多项式的加法）
