@@ -8,7 +8,7 @@ private:
     LinkNode<T> *front,*rear;
 public:
     Queue(){
-       rear = new LinkNode<T>(null);
+       rear = new LinkNode<T>();
        front = rear;
     }
     ~Queue(){
@@ -26,7 +26,7 @@ public:
         return front == rear ? true:false;
     }
     bool enqueue(const T d);
-    bool dequeue(const T &d);
+    bool dequeue(T &d);
 };
 //入队
 template <class T>
@@ -40,7 +40,7 @@ bool Queue<T>::enqueue(const T d){
 };
 //出队
 template <class T>
-bool Queue<T>::dequeue(const T &d){
+bool Queue<T>::dequeue(T &d){
     if(isEmpty()){
         return false;
     }

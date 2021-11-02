@@ -13,10 +13,11 @@ struct LinkNode{
         data = d;
         next = n;
     }
-    friend ostream& operator << (ostream&,LinkNode<T>&);
+    
 };
-
-ostream& operator <<(ostream& out,LinkNode<T>& node){
+template <class T>
+ostream& operator << (ostream& out,LinkNode<T>& node){
     out<<node.data;
     return out;
 }
+#endif
