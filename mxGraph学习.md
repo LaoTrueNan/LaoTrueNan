@@ -219,3 +219,7 @@ new mxPopupMenuHandler(graph,function(){
 
 ### svg & canvas
 
+### 数据库加载组件
+
+mounted钩子中无法获取到el-tree的class或者ref，因为el-tree延迟渲染
+
