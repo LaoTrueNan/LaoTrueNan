@@ -223,3 +223,4 @@ new mxPopupMenuHandler(graph,function(){
 
 mounted钩子中无法获取到el-tree的class或者ref，因为el-tree延迟渲染
 
+![image-maview](./images/maview.jpg)
